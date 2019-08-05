@@ -1,5 +1,4 @@
-FROM python:3.6.6-alpine3.7
-
+FROM python:3.6.9-alpine3.10
 # install newRelic
 RUN pip3 -q install newrelic
 
