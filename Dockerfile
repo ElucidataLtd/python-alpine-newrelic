@@ -1,6 +1,7 @@
 FROM python:3.6.9-alpine3.10
 # install newRelic
 RUN pip3 -q install newrelic
+RUN pip3 -q install ddtrace
 
 COPY ./newrelic /newrelic
 
